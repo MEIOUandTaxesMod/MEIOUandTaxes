@@ -2,7 +2,7 @@
 # Tag : UKI
 # GG-LS Japanese Civil War
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 193  171  8 }
 

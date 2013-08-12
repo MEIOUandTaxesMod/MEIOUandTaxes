@@ -2,7 +2,7 @@
 # Tag : MIN
 # Tech : chinese
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 191	110	62 }
 

@@ -2,7 +2,7 @@
 # Tag : AKM
 # GG-LS Japanese Civil War
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 44  96  137 }
 

@@ -3,7 +3,7 @@
 # Tech : steppestech
 #2011-jun-30 FB	resequenced historical_idea_groups
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 68  40  22 }
 

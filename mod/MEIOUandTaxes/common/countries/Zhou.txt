@@ -2,7 +2,7 @@
 # Tag : ZHU
 # Tech : chinese
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 25	191	154 }
 

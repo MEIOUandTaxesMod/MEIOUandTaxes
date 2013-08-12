@@ -2,7 +2,7 @@
 #Tag: TAM
 #MEIOU-FB - African/Sudan tech group split Nov 08
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 150 150 250 }
 

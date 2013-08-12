@@ -1,6 +1,6 @@
 #Country Name: Please see filename.
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 127  180  60 }
 

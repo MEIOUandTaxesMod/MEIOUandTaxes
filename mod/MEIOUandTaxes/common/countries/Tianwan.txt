@@ -2,7 +2,7 @@
 # Tag : TIA
 # Tech : chinese
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 106	45	0 }
 

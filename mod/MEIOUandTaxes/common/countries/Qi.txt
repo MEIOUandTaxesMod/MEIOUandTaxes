@@ -2,7 +2,7 @@
 # Tag : QII
 # Tech : chinese
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 152	85	92 }
 

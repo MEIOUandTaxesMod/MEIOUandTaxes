@@ -2,7 +2,7 @@
 # Tag : ZHE
 # Tech : chinese
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 161	139	40 }
 

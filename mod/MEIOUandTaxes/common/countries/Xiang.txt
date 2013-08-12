@@ -2,7 +2,7 @@
 # Tag : XNG
 # Tech : chinese
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 8	82	165 }
 

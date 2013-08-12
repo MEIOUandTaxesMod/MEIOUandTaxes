@@ -1,0 +1,67 @@
+#Country Name: Please see filename.
+
+graphical_culture = northamericagfx
+
+color = { 87  182  80 }
+
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	spy_ideas
+	economic_ideas
+}
+
+historical_units = {
+	native_indian_archer
+	native_indian_tribal_warfare
+	native_indian_horsemen
+	native_indian_mountain_warfare
+	iroquis_rifle_scout
+	sioux_dragoon
+	american_western_franchise_warfare
+}
+
+monarch_names = {
+	"Bear Paw #0" = 20
+	"White Wolf #0" = 10
+	"Hiawatha #0" = 10
+	"Wise Beaver #0" = 10
+	"Red Fox #0" = 10
+	"Eagle #0" = 10
+	"Theyanoguin #0" = 10
+	"Teiorhenhsere #0" = 10
+	"Thayendanega #0" = 10
+	"Oronhyatekha #0" = 10
+	
+	"Genessee #0" = -1
+}
+
+leader_names = {
+	Awegen Ahaouet
+	Canajoharie Canastigaone Canienga Caughnawaga Cahunghage Canowaroghere
+	Deseroken Dayoitgao Deonundagae Deyodeshot Deyohnegano Deyonongdadagana
+	Gweugwehono Gandasetaigon Ganogeh Gayagaanhe Gewauga Goiogouen Gadoquat Gannentaha
+	Hostayuntwa
+	Kawauka Kente Kanagaro Kowogoconnughariegugharie Kanadaseagea Kanatakowa
+	Neodakheat Nowadaga Nundawaono
+	Onekagoncka Onoalagona Oquaga Osquake Onayotekaono Oriska Ossewingo 
+	Skannayutenate Saratoga Schaunactada Schoharie
+	Teatontaloga Tewanondadon Tionnontoguen Tegasoke Teseroken Tetosweken 
+	Yoroonwago
+}
+
+ship_names = {
+	Atahensic Ataensic Adekagagwaa
+	Gaol Gohone Gah-oh Gendenwitha
+	Hahgwehdiyu Hahgwehdaetgan "Ha Wen Neyu"
+	Jogah
+	Losheka
+	Onatha Oki
+	Sosondowah
+	Tarhuhyiawahku
+	Yosheka Ya-o-gah
+}

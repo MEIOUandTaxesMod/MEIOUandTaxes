@@ -2,7 +2,7 @@
 # Tag : JIN
 # Tech : chinese
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 117	165	188 }
 

@@ -2,7 +2,7 @@
 # Tag : DLI
 # Tech : chinese
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 102	105	104 }
 

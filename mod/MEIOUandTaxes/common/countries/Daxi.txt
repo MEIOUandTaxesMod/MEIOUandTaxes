@@ -2,7 +2,7 @@
 # Tag : YUE
 # Tech : chinese
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 130	255	219 }
 

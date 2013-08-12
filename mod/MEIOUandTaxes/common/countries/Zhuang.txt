@@ -2,7 +2,7 @@
 # Tag : ZHN
 # Tech : chinese
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 126	23	120 }
 

@@ -2,7 +2,7 @@
 # Tag : HKY
 # GG-LS Japanese Civil War
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 150	2	225 }
 

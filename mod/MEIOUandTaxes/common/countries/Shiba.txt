@@ -2,7 +2,7 @@
 # Tag : SBA
 # GG-LS Japanese Civil War
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 177  207  205 }
 

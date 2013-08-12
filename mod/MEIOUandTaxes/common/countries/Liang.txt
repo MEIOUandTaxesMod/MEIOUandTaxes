@@ -2,7 +2,7 @@
 # Tag : LNG
 # Tech : chinese
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 148  30  70 }
 

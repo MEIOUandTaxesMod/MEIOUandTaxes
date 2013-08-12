@@ -2,7 +2,7 @@
 # Tag : SHU
 # Tech : chinese
 
-graphical_culture = chinesegfx
+graphical_culture = asiangfx
 
 color = { 45	55	145 }
 

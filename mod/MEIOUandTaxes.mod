@@ -1,6 +1,6 @@
 name = "MEIOU and Taxes v1.0"
-path = "mod/MEIOU and Taxes v1.0"
-user_dir = "MEIOU and Taxes v1.0" 
+path = "mod/MEIOUandTaxes"
+user_dir = "MEIOUandTaxes" 
 tags=
 {
 "Balance"

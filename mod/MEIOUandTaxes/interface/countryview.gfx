@@ -9,6 +9,13 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_tab_detail"
+		texturefile = "gfx//interface//tab_detail.tga"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+	
+	spriteType = {
 		name = "GFX_advisor_banner"
 		texturefile = "gfx//interface//advisor_banner.tga"
 		loadType = "INGAME"
@@ -140,7 +147,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_icon_religion"
-		texturefile = "gfx//interface//icon_religion.tga"
+		texturefile = "mod//MEIOUandTaxes//gfx//interface//icon_religion.tga"
 		noOfFrames = 40
 ###		loadType = "INGAME"
 		norefcount = yes
@@ -150,7 +157,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_icon_religion_small"
-		texturefile = "gfx//interface//icon_religion_small.tga"
+		texturefile = "mod//MEIOUandTaxes//gfx//interface//icon_religion_small.tga"
 		noOfFrames = 40
 		loadType = "INGAME"
 	}
@@ -248,12 +255,6 @@ spriteTypes = {
 		norefcount = yes
 	}
 
-	spriteType = {
-		name = "GFX_unittype_icons"
-		texturefile = "gfx//interface//unit_types.tga"
-		noOfFrames = 1
-		loadType = "INGAME"
-	}
 
 	spriteType = {
 		name = "GFX_greendots"

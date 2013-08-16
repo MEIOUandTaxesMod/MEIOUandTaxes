@@ -22,6 +22,8 @@ technology = {
 	# Tech 2
 	year = 1330
 
+	range					=	15
+	
 	merchants = yes
 	
 	enable = cog

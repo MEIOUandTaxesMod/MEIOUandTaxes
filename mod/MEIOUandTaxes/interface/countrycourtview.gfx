@@ -16,7 +16,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_tech_group_strip"
-		texturefile = "gfx//interface//tech_group_strip.dds"
+		texturefile = "mod//MEIOUandTaxes//gfx//interface//tech_group_strip.dds"
 		transparencecheck = yes	
 		noOfFrames = 15
 	}	

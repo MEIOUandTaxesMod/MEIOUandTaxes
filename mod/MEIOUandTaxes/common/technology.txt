@@ -8,88 +8,97 @@
 
 groups = {
 	nomad_group = {
-		modifier = 0.1
-		start_level = 3
-		cav_to_inf_ratio = 1.0
-		# slow_limit = 8		#DW
-	}
-	western = {
-		modifier = 1.00
-		start_level = 6
-		cav_to_inf_ratio = 0.4
-		# slow_limit = 6		#DW
-	}	#FB-HT3 latin renamed western
-	turkishtech = {
-		modifier = 0.95
-		start_level = 7
-		cav_to_inf_ratio = 0.6
-		# slow_limit = 6		#DW
-	}	#known in EU3 4.1 as ottoman
-	eastern = {
 		modifier = 0.90
-		start_level = 5
-		cav_to_inf_ratio = 0.5
-		# slow_limit = 6		#DW
+		start_level = 2
+		cav_to_inf_ratio = 1.0
+		power = -2
 	}
-	muslim = {
-		modifier = 0.85
-		start_level = 7
-		cav_to_inf_ratio = 0.7
-		# slow_limit = 6		#DW
-	}
-	chinese = {
-		modifier = 0.80
-		start_level = 7
-		cav_to_inf_ratio = 0.5
-		# slow_limit = 7		#DW
-	}
-	indian = {
-		modifier = 0.80
-		start_level = 6
-		cav_to_inf_ratio = 0.5
-		# slow_limit = 7		#DW
-	}
-	austranesian = {
-		modifier = 0.75
-		start_level = 5
-		cav_to_inf_ratio = 0.1
-		# slow_limit = 4		#DW
-	}
-	steppestech = {
-		modifier = 0.70
+	
+	western = {
+		modifier = 0.00
 		start_level = 3
-		cav_to_inf_ratio = 0.8
-		# slow_limit = 5		#DW
-	}
-	soudantech = {
-		modifier = 0.65
-		start_level = 5
 		cav_to_inf_ratio = 0.4
-		# slow_limit = 6		#DW
 	}
+	
+	turkishtech = {
+		modifier = 0.10
+		start_level = 4
+		cav_to_inf_ratio = 0.6
+	}
+	
+	eastern = {
+		modifier = 0.15
+		start_level = 3
+		cav_to_inf_ratio = 0.5
+	}
+	
+	muslim = {
+		modifier = 0.20
+		start_level = 4
+		cav_to_inf_ratio = 0.7
+	}
+	
+	chinese = {
+		modifier = 0.20
+		start_level = 4
+		cav_to_inf_ratio = 0.5
+		power = -1
+	}
+	
+	indian = {
+		modifier = 0.20
+		start_level = 3
+		cav_to_inf_ratio = 0.5
+		power = -1
+	}
+	
+	austranesian = {
+		modifier = 0.30
+		start_level = 2
+		cav_to_inf_ratio = 0.1
+		power = -2
+	}
+	
+	steppestech = {
+		modifier = 0.40
+		start_level = 2
+		cav_to_inf_ratio = 0.8
+		power = -2
+	}
+	
+	soudantech = {
+		modifier = 0.50
+		start_level = 2
+		cav_to_inf_ratio = 0.4
+		power = -2
+	}
+	
 	sub_saharan = {
-		modifier = 0.55
-		start_level = 3		#FB was 5 (note: Zanzibar is in the Nuslim tech group)
+		modifier = 0.60
+		start_level = 2
 		cav_to_inf_ratio = 0.0
-		# slow_limit = 4		#DW
-	}	#FB-HT3 african renamed sub_saharan
+		power = -2
+	}
+	
 	new_world = {
-		modifier = 0.35
-		start_level = 5		#FB was 3
+		modifier = 0.80
+		start_level = 2
 		cav_to_inf_ratio = 0.0
-		# slow_limit = 4		#DW
+		power = -2
 	}
+	
 	mongol_tech = {
-		modifier = 1.00
-		start_level = 3		#FB was 5
-		cav_to_inf_ratio = 0.9
-		# slow_limit = 4		#DW
-	}
-	hawaii_tech = {
-		modifier = 0.35
+		modifier = 0.00
 		start_level = 1
+		cav_to_inf_ratio = 0.9
+		power = -1
+	}
+	
+	hawaii_tech = {
+		modifier = 0.70
+		start_level = 0
 		cav_to_inf_ratio = 0.0
-		# slow_limit = 6		#DW
+		power = -2
 	}
 }
 

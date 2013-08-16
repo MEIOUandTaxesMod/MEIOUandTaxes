@@ -309,12 +309,7 @@ spriteTypes = {
 		loadType = "INGAME"
 		transparencecheck = yes
 	}
-	spriteType = {
-		name = "GFX_building_bg2"
-		texturefile = "gfx//interface//building_bg.tga"
-		loadType = "INGAME"
-		transparencecheck = yes
-	}
+
 	spriteType = {
 		name = "GFX_no_building_army"
 		texturefile = "gfx//interface//no_building_army.tga"
@@ -377,7 +372,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_resource_icon"
-		texturefile = "gfx//interface//resources.tga"
+		texturefile = "mod//MEIOUandTaxes//gfx//interface//resources.tga"
 		noOfFrames = 64
 		loadType = "INGAME"
 		norefcount = yes

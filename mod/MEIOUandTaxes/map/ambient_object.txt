@@ -2427,6 +2427,18 @@
 		always_visible=yes
 		object=
 		{
+			name="frame_top_left_entity99"
+			position=
+			{
+				5532.000 18.000 2046.000 
+			}
+			rotation=
+			{
+				0.000 0.000 0.000 
+			}
+		}
+		object=
+		{
 			name="frame_top_left_entity01"
 			position=
 			{
@@ -2466,7 +2478,7 @@
 			name="frame_top_left_entity01"
 			position=
 			{
-				5532.000 18.000 2046.000 
+				-100.000 18.000 2046.000 
 			}
 			rotation=
 			{
@@ -2691,25 +2703,26 @@
 		}
 	}
 
-	
-# National Monuments
+#	
+# National Monuments DLC
+#
 
 	type=
 	{
 		type="nammi_angkor_wat_entity"
 		use_animation=no
-		scale=0.550000
+		scale=0.570000
 		time_duration=300.000000
 		object=
 		{
 			name="angkor_wat"
 			position=
 			{
-				4428.500 0.150 868.000 
+				4428.600 0.150 869.000 
 			}
 			rotation=
 			{
-				0.000 -15.000 0.000 
+				0.000 -103.000 0.000 
 			}
 		}
 	}
@@ -2717,14 +2730,14 @@
 	{
 		type="nammi_cologne_cathedral_entity"
 		use_animation=no
-		scale=0.660000
+		scale=0.730000
 		time_duration=300.000000
 		object=
 		{
 			name="cologne"
 			position=
 			{
-				2907.800 0.100 1539.500 
+				2908.300 0.350 1537.500 
 			}
 			rotation=
 			{
@@ -2736,14 +2749,14 @@
 	{
 		type="nammi_kremlin_entity"
 		use_animation=no
-		scale=0.450000
+		scale=0.520000
 		time_duration=300.000000
 		object=
 		{
 			name="kremlin"
 			position=
 			{
-				3388.250 0.100 1641.000 
+				3387.500 -0.150 1640.900 
 			}
 			rotation=
 			{
@@ -2755,18 +2768,18 @@
 	{
 		type="nammi_mount_fuji_entity"
 		use_animation=no
-		scale=0.550000
+		scale=0.900000
 		time_duration=300.000000
 		object=
 		{
 			name="mount_fuji"
 			position=
 			{
-				4968.500 1.000 1241.500 
+				4968.500 2.280 1242.900 
 			}
 			rotation=
 			{
-				0.000 -45.000 0.000 
+				0.000 -110.000 0.000 
 			}
 		}
 	}
@@ -2774,14 +2787,14 @@
 	{
 		type="nammi_notre_dame_cathedral_entity"
 		use_animation=no
-		scale=0.550000
+		scale=0.580000
 		time_duration=300.000000
 		object=
 		{
 			name="notre_dame"
 			position=
 			{
-				2843.400 0.100 1494.000 
+				2843.600 0.200 1494.700 
 			}
 			rotation=
 			{
@@ -2793,14 +2806,14 @@
 	{
 		type="nammi_old_faithful_geyser_entity"
 		use_animation=no
-		scale=0.300000
+		scale=0.150000
 		time_duration=300.000000
 		object=
 		{
 			name="old_faithful"
 			position=
 			{
-				1082.500 0.000 1630.000 
+				1082.500 0.010 1630.000 
 			}
 			rotation=
 			{
@@ -2819,11 +2832,11 @@
 			name="stpeters"
 			position=
 			{
-				3002.000 0.100 1364.000 
+				3000.000 0.260 1364.300 
 			}
 			rotation=
 			{
-				0.000 20.000 0.000 
+				0.000 70.000 0.000 
 			}
 		}
 	}
@@ -2831,20 +2844,18 @@
 	{
 		type="nammi_tower_of_london_entity"
 		use_animation=no
-		scale=0.500000
+		scale=0.300000
 		time_duration=300.000000
 		object=
 		{
 			name="tower_of_london"
 			position=
 			{
-				2806.000 0.000 1549.500 
+				2802.350 0.200 1550.400 
 			}
 			rotation=
 			{
-				0.000 20.000 0.000 
+				0.000 13.000 0.000 
 			}
 		}
 	}
-
-	

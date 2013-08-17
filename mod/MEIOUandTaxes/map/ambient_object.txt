@@ -100,18 +100,6 @@
 			name="French_windmill"
 			position=
 			{
-				2843.000 0.100 1541.000 
-			}
-			rotation=
-			{
-				0.000 -15.000 0.000 
-			}
-		}
-		object=
-		{
-			name="French_windmill"
-			position=
-			{
 				2831.000 0.100 1480.000 
 			}
 			rotation=
@@ -125,6 +113,18 @@
 			position=
 			{
 				2841.000 0.100 1433.000 
+			}
+			rotation=
+			{
+				0.000 -15.000 0.000 
+			}
+		}
+		object=
+		{
+			name="French_windmill"
+			position=
+			{
+				2843.000 0.100 1541.000 
 			}
 			rotation=
 			{
@@ -989,54 +989,6 @@
 			name="Seagulls_english_channel"
 			position=
 			{
-				1535.000 0.250 1332.000 
-			}
-			rotation=
-			{
-				0.000 -60.000 0.000 
-			}
-		}
-		object=
-		{
-			name="Seagulls_english_channel"
-			position=
-			{
-				1557.000 0.250 1336.000 
-			}
-			rotation=
-			{
-				0.000 -60.000 0.000 
-			}
-		}
-		object=
-		{
-			name="Seagulls_english_channel"
-			position=
-			{
-				3322.000 0.100 1126.000 
-			}
-			rotation=
-			{
-				0.000 -60.000 0.000 
-			}
-		}
-		object=
-		{
-			name="Seagulls_english_channel"
-			position=
-			{
-				3311.070 0.100 1076.070 
-			}
-			rotation=
-			{
-				0.000 -60.000 0.000 
-			}
-		}
-		object=
-		{
-			name="Seagulls_english_channel"
-			position=
-			{
 				1844.000 0.200 1008.000 
 			}
 			rotation=
@@ -1181,6 +1133,30 @@
 			name="Seagulls_english_channel"
 			position=
 			{
+				1535.000 0.250 1332.000 
+			}
+			rotation=
+			{
+				0.000 -60.000 0.000 
+			}
+		}
+		object=
+		{
+			name="Seagulls_english_channel"
+			position=
+			{
+				1557.000 0.250 1336.000 
+			}
+			rotation=
+			{
+				0.000 -60.000 0.000 
+			}
+		}
+		object=
+		{
+			name="Seagulls_english_channel"
+			position=
+			{
 				1552.000 0.250 1311.000 
 			}
 			rotation=
@@ -1210,6 +1186,30 @@
 			rotation=
 			{
 				0.000 45.000 0.000 
+			}
+		}
+		object=
+		{
+			name="Seagulls_english_channel"
+			position=
+			{
+				3322.000 0.100 1126.000 
+			}
+			rotation=
+			{
+				0.000 -60.000 0.000 
+			}
+		}
+		object=
+		{
+			name="Seagulls_english_channel"
+			position=
+			{
+				3311.070 0.100 1076.070 
+			}
+			rotation=
+			{
+				0.000 -60.000 0.000 
 			}
 		}
 		object=
@@ -1327,30 +1327,6 @@
 			name="Seagulls_english_channel"
 			position=
 			{
-				870.000 0.100 1629.000 
-			}
-			rotation=
-			{
-				0.000 -60.000 0.000 
-			}
-		}
-		object=
-		{
-			name="Seagulls_english_channel"
-			position=
-			{
-				872.000 0.100 1685.000 
-			}
-			rotation=
-			{
-				0.000 -60.000 0.000 
-			}
-		}
-		object=
-		{
-			name="Seagulls_english_channel"
-			position=
-			{
 				1769.000 0.100 32.000 
 			}
 			rotation=
@@ -1392,6 +1368,30 @@
 			rotation=
 			{
 				0.000 40.000 0.000 
+			}
+		}
+		object=
+		{
+			name="Seagulls_english_channel"
+			position=
+			{
+				870.000 0.100 1629.000 
+			}
+			rotation=
+			{
+				0.000 -60.000 0.000 
+			}
+		}
+		object=
+		{
+			name="Seagulls_english_channel"
+			position=
+			{
+				872.000 0.100 1685.000 
+			}
+			rotation=
+			{
+				0.000 -60.000 0.000 
 			}
 		}
 		object=
@@ -1984,6 +1984,54 @@
 			name="Seagulls_english_channel"
 			position=
 			{
+				1686.000 0.100 280.000 
+			}
+			rotation=
+			{
+				0.000 0.000 0.000 
+			}
+		}
+		object=
+		{
+			name="Seagulls_english_channel"
+			position=
+			{
+				1783.000 0.200 303.000 
+			}
+			rotation=
+			{
+				0.000 0.000 0.000 
+			}
+		}
+		object=
+		{
+			name="Seagulls_english_channel"
+			position=
+			{
+				1709.000 0.300 382.000 
+			}
+			rotation=
+			{
+				0.000 0.000 0.000 
+			}
+		}
+		object=
+		{
+			name="Seagulls_english_channel"
+			position=
+			{
+				1743.000 0.400 452.000 
+			}
+			rotation=
+			{
+				0.000 0.000 0.000 
+			}
+		}
+		object=
+		{
+			name="Seagulls_english_channel"
+			position=
+			{
 				1742.000 0.100 579.000 
 			}
 			rotation=
@@ -2045,54 +2093,6 @@
 			position=
 			{
 				1675.000 0.100 704.000 
-			}
-			rotation=
-			{
-				0.000 0.000 0.000 
-			}
-		}
-		object=
-		{
-			name="Seagulls_english_channel"
-			position=
-			{
-				1686.000 0.100 280.000 
-			}
-			rotation=
-			{
-				0.000 0.000 0.000 
-			}
-		}
-		object=
-		{
-			name="Seagulls_english_channel"
-			position=
-			{
-				1783.000 0.200 303.000 
-			}
-			rotation=
-			{
-				0.000 0.000 0.000 
-			}
-		}
-		object=
-		{
-			name="Seagulls_english_channel"
-			position=
-			{
-				1709.000 0.300 382.000 
-			}
-			rotation=
-			{
-				0.000 0.000 0.000 
-			}
-		}
-		object=
-		{
-			name="Seagulls_english_channel"
-			position=
-			{
-				1743.000 0.400 452.000 
 			}
 			rotation=
 			{
@@ -2317,7 +2317,7 @@
 			name="Seagulls_english_channel"
 			position=
 			{
-				3302.000 0.100 1190.000 
+				3298.000 0.100 1201.000 
 			}
 			rotation=
 			{
@@ -2391,30 +2391,6 @@
 			name="Seagulls_english_channel"
 			position=
 			{
-				1297.000 0.150 1568.000 
-			}
-			rotation=
-			{
-				0.000 -60.000 0.000 
-			}
-		}
-		object=
-		{
-			name="Seagulls_english_channel"
-			position=
-			{
-				1330.000 0.150 1548.000 
-			}
-			rotation=
-			{
-				0.000 -60.000 0.000 
-			}
-		}
-		object=
-		{
-			name="Seagulls_english_channel"
-			position=
-			{
 				1237.000 0.100 1527.000 
 			}
 			rotation=
@@ -2456,6 +2432,30 @@
 			rotation=
 			{
 				0.000 45.000 0.000 
+			}
+		}
+		object=
+		{
+			name="Seagulls_english_channel"
+			position=
+			{
+				1297.000 0.150 1568.000 
+			}
+			rotation=
+			{
+				0.000 -60.000 0.000 
+			}
+		}
+		object=
+		{
+			name="Seagulls_english_channel"
+			position=
+			{
+				1330.000 0.150 1548.000 
+			}
+			rotation=
+			{
+				0.000 -60.000 0.000 
 			}
 		}
 	}

@@ -1,7 +1,7 @@
 # Anglosaxon Empire
 # ASE
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 155 147 180 }
 

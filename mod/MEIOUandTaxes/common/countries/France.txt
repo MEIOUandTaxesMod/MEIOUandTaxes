@@ -2,7 +2,7 @@
 
 # modded by Solo for MEIOU. See comments for the altered parts.
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 10  20  150 }
 

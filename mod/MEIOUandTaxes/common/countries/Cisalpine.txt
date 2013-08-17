@@ -1,7 +1,7 @@
 # Cisalpine Italy
 # ITE
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 96  131  80 }
 

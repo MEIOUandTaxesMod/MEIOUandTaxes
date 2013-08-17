@@ -1,6 +1,6 @@
 #Kurland
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 99  137  153 }
 

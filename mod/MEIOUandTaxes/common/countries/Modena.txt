@@ -1,7 +1,7 @@
 # Modena
 # MOD
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 97  126  37 }
 

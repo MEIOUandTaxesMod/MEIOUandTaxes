@@ -1,7 +1,7 @@
 # Milan / Lombardy
 # MLO
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 146  108  146 }
 

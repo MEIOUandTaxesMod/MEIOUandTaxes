@@ -1,7 +1,7 @@
 # Revolt of Erik Magnusson against his father
 # Tag = RSW
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 75  75  175 }
 

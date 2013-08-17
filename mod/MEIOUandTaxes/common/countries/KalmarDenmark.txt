@@ -1,6 +1,6 @@
 # Scandinavian Union
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 106  68  172 }
 

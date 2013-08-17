@@ -2,7 +2,7 @@
 
 # modded by Solo for MEIOU.
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 205  178  107 }
 

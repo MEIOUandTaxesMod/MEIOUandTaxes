@@ -1,7 +1,7 @@
 # Trento
 # TNT
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 #color = { 208  104  44 }
 color = { 54  167  156 }

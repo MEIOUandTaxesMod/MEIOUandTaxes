@@ -1,7 +1,7 @@
 # Padoa
 # PAD
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 194  105  183 }
 

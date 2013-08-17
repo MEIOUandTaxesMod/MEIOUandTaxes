@@ -1,7 +1,7 @@
 # Monferrato
 # MFT
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 173  112  76 }
 

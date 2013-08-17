@@ -1,7 +1,7 @@
 # Massa
 # MAS
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 65  171  215 }
 

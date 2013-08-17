@@ -1,7 +1,7 @@
 # Genoa
 # GEN
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 218  215  56 }
 

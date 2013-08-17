@@ -1,7 +1,7 @@
 # Hainaut
 # HAI
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 103  62  185 }
 

@@ -1,6 +1,6 @@
 # Würzburg
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 147  146  106 }
 

@@ -1,4 +1,4 @@
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 180  30  80 }
 

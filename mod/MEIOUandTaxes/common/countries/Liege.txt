@@ -1,7 +1,7 @@
 # Principality-Bishopric of Liège
 # LIE
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 149  186  37 }
 

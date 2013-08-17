@@ -4,7 +4,7 @@
 # Modded by Solo for MEIOU
 # See Holland.txt for details about the dutch lists
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 223  198  64 }
 

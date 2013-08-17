@@ -1,7 +1,7 @@
 # Pisa
 # PIS
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 148  30  70 }
 

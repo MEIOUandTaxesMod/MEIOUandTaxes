@@ -3,7 +3,7 @@
 # modded by Solo for MEIOU. See comments for the altered parts.
 #2011-jun-05 FB	replaced ecumenism with military_drill; move bill_of_rights to later (not valid in 1356)
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 200  0  0 }
 

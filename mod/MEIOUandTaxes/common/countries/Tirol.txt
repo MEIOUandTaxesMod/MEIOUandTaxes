@@ -1,6 +1,6 @@
 #Gefürstete Grafschaft Tirol
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 170 43 21 }
 

@@ -1,7 +1,7 @@
 # Luxemburg
 # LUX
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 44  76  121 }
 

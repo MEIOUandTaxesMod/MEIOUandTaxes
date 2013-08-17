@@ -1,6 +1,6 @@
 # RHU - Royal Hungary
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 152  85  92 }
 

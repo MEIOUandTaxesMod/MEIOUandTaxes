@@ -1,6 +1,6 @@
 #Gotland
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 191  113  133 }
 

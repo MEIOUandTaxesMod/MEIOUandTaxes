@@ -1,7 +1,7 @@
 # Sardinia
 # SAR
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 117  146  167 }
 

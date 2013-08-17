@@ -1,7 +1,7 @@
 # Papal States
 # PAP
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 211  220  178 }
 

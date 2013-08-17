@@ -1,7 +1,7 @@
 # Kingdom of Jerusalem
 # KJR
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 6  27  153 }
 

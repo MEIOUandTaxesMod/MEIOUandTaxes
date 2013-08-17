@@ -1,7 +1,7 @@
 # Verona
 # VER
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 0 156 255 }
 

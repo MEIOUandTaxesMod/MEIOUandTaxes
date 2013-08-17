@@ -1,7 +1,7 @@
 # Jülich
 # JUL
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 73  176  213 }
 

@@ -1,6 +1,6 @@
 #Danzig
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 78  129  151 }
 

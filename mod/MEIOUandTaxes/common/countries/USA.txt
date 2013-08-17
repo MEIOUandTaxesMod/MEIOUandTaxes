@@ -1,7 +1,7 @@
 # Tag : USA
 # Country : United States of America
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 is_colonial = yes
 

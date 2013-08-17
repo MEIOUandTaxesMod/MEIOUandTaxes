@@ -1,7 +1,7 @@
 # Siena
 # SIE
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 203  144  10 }
 

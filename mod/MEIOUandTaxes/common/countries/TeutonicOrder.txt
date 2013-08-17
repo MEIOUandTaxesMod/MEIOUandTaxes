@@ -1,7 +1,7 @@
 # Tag : TEU
 # Nation : Teutonic Order
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 102  105  104 }
 

@@ -1,7 +1,7 @@
 # Order of the Knights of Saint John
 # Tag : KNI
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 106  127  183 }
 

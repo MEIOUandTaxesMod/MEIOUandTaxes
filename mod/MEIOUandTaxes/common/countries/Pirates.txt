@@ -1,6 +1,6 @@
 #Pirates
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 110  109  94 }
 

@@ -1,7 +1,7 @@
 # Kingdom of Mallorca
 # BLE
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 113  182  76}
 

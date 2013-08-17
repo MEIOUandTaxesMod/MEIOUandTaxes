@@ -1,7 +1,7 @@
 # Pavia
 # PAV
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 255  167  156 }
 

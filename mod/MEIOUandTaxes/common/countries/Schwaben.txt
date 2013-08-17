@@ -1,7 +1,7 @@
 #Country Name: Please see filename.
 #for TECC
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 135  147  180 }
 

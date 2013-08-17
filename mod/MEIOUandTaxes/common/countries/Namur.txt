@@ -1,7 +1,7 @@
 # Comté de Namur
 # NAM
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 58 50 80 }
 

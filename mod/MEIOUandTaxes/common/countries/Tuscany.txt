@@ -1,7 +1,7 @@
 # Florence / Tuscany
 # TUS
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 84  96  136 } 
 

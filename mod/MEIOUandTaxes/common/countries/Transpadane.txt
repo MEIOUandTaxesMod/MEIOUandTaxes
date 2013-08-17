@@ -1,7 +1,7 @@
 # Transpadane Italy
 # ITC
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 105  101  184 }
 

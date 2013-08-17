@@ -1,7 +1,7 @@
 # Italy
 # ITA
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 125  171  84 }
 

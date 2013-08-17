@@ -1,6 +1,6 @@
 #common\Countries\Bohemia.txt
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 161  139  40 }
 

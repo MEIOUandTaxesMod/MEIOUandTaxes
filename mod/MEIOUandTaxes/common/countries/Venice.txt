@@ -1,7 +1,7 @@
  # Venice
 # VEN
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 #color = { 54  167  156 }
 color = { 208  104  44 }

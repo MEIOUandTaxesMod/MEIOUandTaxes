@@ -1,7 +1,7 @@
 # Parma
 # PAR
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 128  202  129 }
 

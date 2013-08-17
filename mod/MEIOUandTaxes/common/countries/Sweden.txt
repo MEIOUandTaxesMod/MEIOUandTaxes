@@ -1,6 +1,6 @@
 #Sweden
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 40  50  190 }
 

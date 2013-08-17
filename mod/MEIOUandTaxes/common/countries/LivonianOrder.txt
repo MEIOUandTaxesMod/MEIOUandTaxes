@@ -1,6 +1,6 @@
 #Livonia Order
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 179  29  100 }
 

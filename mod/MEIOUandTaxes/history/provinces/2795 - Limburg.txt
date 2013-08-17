@@ -1,0 +1,84 @@
+# 2795 - Limburg
+
+owner = BRB
+controller = BRB 
+add_core = BRB
+culture = flemish
+religion = catholic
+capital = "Limburg"
+
+base_tax = 5
+manpower = 6
+trade_goods = linen
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = yes
+
+1430.1.1   = { owner = BUR controller = BUR add_core = BUR }
+1477.1.5   = { revolt_risk = 10 } # death of Charles the Bold
+1477.8.18  = { revolt_risk = 0 } # Personal Union with HAS (marriage of Mary of Burgondy & Maximmilian of Hasburg)
+1482.3.27  = { owner = HAB controller = HAB add_core = HAB remove_core = BUR } # Mary of burgondy dies, Lowlands to Austria
+1492.7.12  = { revolt_risk = 0 } # Peace of Cadzand, peace returns
+1525.1.1   = { temple = yes } # Sint-John's Cathedral finished in 's Hertogenbosch
+1530.1.1   = { fort2 = yes }
+1540.1.1   = { courthouse = yes }
+1542.1.1   = { controller = GEL } # Gelre occupies Noord-Brabant in the Austro-Gelrian War
+1543.1.1   = { controller = HAB } # Charles V is back in control
+1549.11.4  = { add_core = NED remove_core = BRB }
+1550.1.1   = { add_core = NED }
+1556.1.14  = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }
+1559.5.12  = { revolt_risk = 3 } # New bishoprics in the Lowlands create an outrage
+1565.1.1   = { revolt_risk = 5 } # Letters of Segovia, Philip I orders the harsh persecution of Calvinists
+1566.4.5   = { revolt_risk = 3 } # 'Eedverbond der Edelen', Margaretha of Parma promises leniency
+1567.9.10  = { revolt_risk = 4 } # Counts of Egmont & Hoorne arrested
+1568.6.5   = { revolt_risk = 6 } # Counts of Egmont & Hoorne beheaded
+1569.1.1   = { revolt_risk = 12 } # The Duke of Alba reforms the taxation system ('tiende penning')
+1570.1.1   = { revolt_risk = 20 marketplace = yes constable = yes } # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
+1577.2.12  = { revolt_risk = 16 } # 'Perpetual Edict' (Eeuwig Edict) accepted by Don Juan
+1579.1.6   = { add_core = EBU }
+1610.1.1   = { weapons = yes } # Liège was always a centre of arms production
+1630.1.1   = { workshop = yes }
+1650.1.1   = { fort3 = yes }
+1690.1.1   = { customs_house = yes }
+1715.1.1   = { fort4 = yes }
+1750.1.1   = { mint = yes }
+1789.12.3 = {
+	controller = REB
+	add_core = EBU
+}
+1790.1.11  = {
+	owner = EBU
+	controller = EBU
+	remove_core = LIE
+}
+1791.1.1   = {
+	owner = HAB
+	controller = HAB
+}
+1797.12.26 = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+} # Treaty of Campo Formio
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1814.4.11  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.16  = {
+	owner = NED
+	controller = NED
+	add_core = NED
+	remove_core = FRA
+} # The United Kingdom of the Netherlands
+1830.1.1    = {
+	owner = EBU
+	controller = EBU
+}

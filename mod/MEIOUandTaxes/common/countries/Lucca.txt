@@ -1,7 +1,7 @@
 # Lucca
 # LUC
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 165  71  15 }
 

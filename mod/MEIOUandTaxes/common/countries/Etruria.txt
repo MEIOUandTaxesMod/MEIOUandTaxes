@@ -1,7 +1,7 @@
 # Etruria
 # ETR
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 114  154  143 } 
 

@@ -1,7 +1,7 @@
 # Bologna
 # BLG
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 41  252  151 }
 

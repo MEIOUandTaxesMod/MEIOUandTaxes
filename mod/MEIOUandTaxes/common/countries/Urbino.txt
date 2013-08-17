@@ -1,7 +1,7 @@
 # Urbino
 # URB
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 61  152  180 }
 

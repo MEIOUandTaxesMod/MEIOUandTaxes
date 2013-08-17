@@ -1,0 +1,563 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+
+###########################################
+# Discovery of the East Indian trade route.
+###########################################
+east_indian_trade_route = {
+	potential = {
+		num_of_ports = 1
+		capital_scope = { continent = europe }
+	}
+
+	trigger = {
+		has_discovered = 1460 # Cape of Good Hope
+		num_of_ports = 4
+		NOT = { mercantilism = 0.3 }
+		has_idea = quest_for_the_new_world
+		technology_group = western
+		capital_scope = {
+			continent = europe
+		}
+		any_active_trade_node = {
+			OR = {
+				province_id = 1361 # Straits of Johor
+				province_id = 1343 # Ganges Delta
+				province_id = 504 # Sind
+				province_id = 1340 # Comorin Cape
+			}
+		}
+	}
+
+	global_trade_income_modifier = 0.2	#20% more trade income.
+}
+
+######################################
+# Christian control of Mecca.
+######################################
+christian_mecca = {
+	potential = {
+		has_discovered = 385	# Mecca
+		religion_group = christian
+	}
+
+	trigger = {
+		owns = 385 # Mecca
+	}
+
+	prestige = 1			#1% more yearly prestige
+	missionaries = 1
+	#icon = 9
+}
+
+
+###########################################
+# Jerusalem held by Muslims or Christians
+###########################################
+jerusalem_held = {
+	potential = {
+		has_discovered = 379	# Judea
+	}
+
+	trigger = {
+		owns = 379 # Judea
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+		}
+	}
+
+	prestige = 1			#1% more yearly prestige
+	missionaries = 1
+	#icon = 9
+}
+
+
+######################################
+# Non-Catholic control of Rome.
+######################################
+non_catholic_rome = {
+	potential = {
+		has_discovered = 118	# Roma
+		NOT = { religion = catholic }
+	}
+
+	trigger = {
+		owns = 118 # Roma
+		
+	}
+
+	prestige = 1			#1% more yearly prestige
+	missionaries = 1
+	#icon = 9
+}
+
+
+######################################
+# Western Influences.
+######################################
+western_arms_trade = {
+	potential = {
+		NOT = { technology_group = western }
+	}
+
+	trigger = {
+		any_neighbor_country = {
+			technology_group = western
+			has_opinion = { who = ROOT value = 150 }
+		}
+	}
+
+	prestige = -1			#1% less yearly prestige
+	technology_cost = -0.05
+}
+
+
+######################################
+# Time of Troubles.
+######################################
+time_of_troubles = {
+	potential = {
+		has_country_flag = time_of_troubles
+		NOT = { has_country_flag = time_of_troubles_ended }
+	}
+
+	trigger = {
+		has_country_flag = time_of_troubles
+		NOT = { has_country_flag = time_of_troubles_ended }
+	}
+
+	global_revolt_risk = 10
+	stability_cost_modifier = 0.20
+}
+
+
+######################################
+# Revolution
+######################################
+revolution = {
+	potential = {
+		has_country_flag = revolution
+	}
+
+	trigger = {
+		has_country_flag = revolution
+	}
+	
+	global_revolt_risk = 10
+	stability_cost_modifier = 0.1
+}
+
+
+######################################
+# Peasants' War
+######################################
+peasant_war = {
+	potential = {
+		has_country_flag = peasant_war
+	}
+
+	trigger = {
+		has_country_flag = peasant_war
+	}
+
+	global_revolt_risk = 10
+	stability_cost_modifier = 0.1
+}
+
+######################################
+# Counter Revolution
+######################################
+counter_revolution = {
+	potential = {
+		revolution_target_exists = yes
+		is_revolution_target = no
+	}
+
+	trigger = {
+		capital_scope = { continent = europe }
+		revolution_target_exists = yes
+		is_revolution_target = no
+		NOT = {
+			revolution_target = {
+				war_with = ROOT
+			}
+			revolution_target = {
+				truce_with = ROOT
+			}
+			revolution_target = {
+				alliance_with = ROOT
+			}  
+		}
+		OR = {
+			government = absolute_monarchy
+			government = enlightened_despotism
+			government = despotic_monarchy
+			government = feudal_monarchy
+			government = administrative_monarchy
+			government = constitutional_monarchy
+			government = bureaucratic_despotism
+			government = imperial_government
+		}
+	}
+
+	prestige = -5
+	stability_cost_modifier = 0.3
+}
+
+######################################
+# vive la Revolution
+######################################
+vive_la_revolution = {
+	potential = {
+		is_revolution_target = yes
+	}
+
+	trigger = {
+		is_revolution_target = yes
+		is_at_war = yes
+	}
+
+	global_manpower_modifier = 0.5
+	land_morale = 0.25
+	war_exhaustion_cost = 0.25
+}
+
+######################################
+# Reaction
+######################################
+reaction = {
+	potential = {
+		revolution_target_exists = yes
+		capital_scope = { continent = europe }
+	}
+
+	trigger = {
+		capital_scope = { continent = europe }
+		OR = {
+			government = absolute_monarchy
+			government = enlightened_despotism
+			government = despotic_monarchy
+			government = feudal_monarchy
+			government = administrative_monarchy
+			government = constitutional_monarchy
+			government = bureaucratic_despotism
+			government = imperial_government
+		}
+		revolution_target = {
+			war_with = ROOT
+		}  
+
+	}
+
+	prestige = 10
+	stability_cost_modifier = -0.1
+}
+
+######################################
+# Crusader
+######################################
+crusader = {
+	potential = {
+		crusade_target = {
+			exists = yes
+		}
+		europe = {
+			has_discovered = ROOT
+		}
+		religion = catholic
+	}
+
+	trigger = {
+		
+		crusade_target = {
+			war_with = ROOT
+			any_province = {
+				controlled_by = root
+			}
+		}  
+		land_maintenance = 1.0
+	}
+
+	global_manpower_modifier = 0.3
+	global_tax_modifier = 0.1
+	land_morale = 0.5
+	prestige = 1
+	papal_influence = 2
+	#icon = 9
+}
+
+######################################
+# Excommunication
+######################################
+excommunication = {
+	potential = {
+		religion = catholic	
+	}
+
+	trigger = {
+		is_excommunicated = yes
+		
+	}
+
+	prestige = -2
+	tolerance_own = -3
+	papal_influence = -5
+	#icon = 10
+}
+
+######################################
+# Large Tribes
+######################################
+large_tribe_bad_adm = {
+	potential = {
+		OR = {
+			government = tribal_despotism
+			government = tribal_federation
+			government = tribal_democracy
+		}
+	}
+
+	trigger = {
+		OR = {
+			government = tribal_despotism
+			government = tribal_federation
+			government = tribal_democracy
+		}
+		num_of_cities = 10
+		NOT = { ADM = 4 }
+	}
+
+	global_tax_modifier = -0.33
+}
+
+large_tribe_bad_dip = {
+	potential = {
+		OR = {
+			government = tribal_despotism
+			government = tribal_federation
+			government = tribal_democracy
+		}
+	}
+
+	trigger = {
+		OR = {
+			government = tribal_despotism
+			government = tribal_federation
+			government = tribal_democracy
+		}
+		num_of_cities = 10
+		NOT = { DIP = 4 }
+	}
+
+	global_revolt_risk = 3
+}
+
+large_tribe_bad_mil = {
+	potential = {
+		OR = {
+			government = tribal_despotism
+			government = tribal_federation
+			government = tribal_democracy
+		}
+	}
+
+	trigger = {
+		OR = {
+			government = tribal_despotism
+			government = tribal_federation
+			government = tribal_democracy
+		}
+		num_of_cities = 10
+		NOT = { MIL = 4 }
+	}
+
+	core_creation = 2.0
+}
+
+######################################
+# Barbary Pirates
+######################################
+barbary_pirates = {
+	potential = {
+		religion_group = christian
+		culture_group = iberian
+	}
+
+	trigger = {
+		OR = {
+			owns = 334 	 # Tangiers
+			owns = 1751	 # Ceuta
+		}
+		OR = {
+			owns = 335	 # Mellila
+			owns = 337	 # Oran
+		}
+		has_country_modifier = the_anti_piracy_act
+	}
+
+	prestige = 1
+	galley_cost = -0.1
+	light_ship_cost = -0.1
+}
+
+
+##################################################
+# The Pentarchy
+##################################################
+pentarchy_mod = {
+	potential = {
+		religion = orthodox
+		OR = {
+			has_discovered = 118 	# Rome
+			has_discovered = 151 	# Constantinople
+			has_discovered = 377 	# Aleppo
+			has_discovered = 379 	# Jerusalem
+			has_discovered = 358 	# Alexandria
+		}
+	}
+
+	trigger = {
+		owns = 118 	# Rome
+		owns = 151 	# Constantinople
+		owns = 377 	#Aleppo
+		owns = 379 	# Jerusalem
+		owns = 358 	# Alexandria
+		118 = { religion = orthodox }
+		151 = { religion = orthodox }
+		377 = { religion = orthodox }
+		379 = { religion = orthodox }
+		358 = { religion = orthodox }
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+}
+
+##################################################
+# Chinese Bureaucracy
+##################################################
+
+chinese_bureaucracy = {
+	potential = {
+		tag = MNG
+	}
+	trigger = {
+		has_factions = yes
+		government = celestial_empire
+	}
+	
+	
+	#Temple negates these..
+	discipline = -0.25
+	land_forcelimit_modifier = -0.5
+	manpower_recovery_speed = -0.5
+	core_creation = 1.0
+	unjustified_demands = 0.5
+	
+	#Eunuchs
+	global_trade_power = -0.50
+	diplomatic_upkeep = -4
+	global_trade_income_modifier = -0.5
+	technology_cost = 0.5
+	merchants = -1
+	advisor_cost = 1.0
+	
+	#Bureaucrats	
+	build_cost = 1.0
+	global_tax_modifier = -0.5
+	stability_cost_modifier = 0.5
+	advisor_pool = -1
+	heir_chance = -0.5
+	religious_unity = -0.25
+}
+
+the_mandate_of_heaven = {
+	potential = {
+		has_factions = yes
+		government = celestial_empire
+	}
+	
+	trigger = {
+		
+		stability = 0
+		legitimacy = 60
+		num_of_cities = 20
+		is_westernising = no
+	}
+
+	stability_cost_modifier = -0.10
+	global_revolt_risk = -5
+	#icon = 3
+}
+
+the_mandate_of_heaven_lost = {
+	potential = {
+		has_factions = yes
+		government = celestial_empire
+	}
+
+	trigger = {
+		NOT = {
+			has_country_modifier = the_mandate_of_heaven
+		}
+		num_of_cities = 20
+	}
+
+	stability_cost_modifier = 0.5
+	global_tax_modifier = -0.5
+	global_revolt_risk = 5
+	legitimacy = -5
+	#icon = 4
+}
+
+##################################################
+# Nice Bonus for big HRE
+##################################################
+big_hre = {
+	potential = {
+		europe = {
+			has_discovered = ROOT
+		}
+	}
+
+	trigger = {
+		is_part_of_hre = yes
+		hre_size = 25
+		is_emperor = no
+	}
+	
+	technology_cost = -0.1
+	stability_cost_modifier = -0.1
+	global_revolt_risk = -3
+	#icon = 3
+}
+
+
+##################################################
+# Some help for scotland in early game
+##################################################
+
+highland_charge = {
+	potential = {
+		SCO = { exists = yes }
+		OR = {
+			tag = SCO
+			tag = ENG
+			tag = GBR
+		}
+	}
+
+	trigger = {
+		tag = SCO
+		owns = 252	#highlands..
+		MIL = 2
+		NOT = { num_of_cities = 7 }
+	}
+	
+	leader_shock = 1
+	#icon = 1
+}

@@ -1,0 +1,270 @@
+# Great Britain
+GBR = {
+	always = no
+}
+ENG = {
+	NOT = { exists = GBR }
+	NOT = { exists = UEF }
+}
+UEF = {
+	always = no
+}
+
+# Holy Roman Empire
+ERG = {
+	always = no
+}
+
+# Germany
+GER = {
+	always = no
+}
+
+# France
+FRA = {
+	NOT = { exists = RFR }
+}
+RFR = {
+	NOT = { exists = FRA }
+	is_core = RFR
+}
+
+# Italy
+ITA = {
+	always = no
+}
+
+# Netherlands
+NED = {
+	is_core = NED
+}
+
+# Timurids
+TIM = {
+	culture = uzbehk
+	is_core = TIM
+}
+
+# Byzantium
+BYZ = {
+	always = no
+}
+
+# Spain
+SPA = {
+	OR = {
+		is_core = SPA
+		owner = {
+			capital_scope = {
+				is_core = SPA
+			}
+		}
+	}
+	NOT = { exists = CAS }
+	NOT = { exists = ARA }
+	NOT = { exists = RSP }
+}
+RSP = {
+	always = no
+}
+
+# Aragon
+ARA = {
+	NOT = { is_core = SPA }
+	NOT = { exists = SPA }
+}
+
+# Castille
+CAS = {
+	NOT = { is_core = SPA }
+	NOT = { exists = SPA }
+}
+
+# Greece
+GRE = {
+	NOT = { exists = BYZ }
+	is_core = GRE
+}
+
+# Sardinia-Piedmont
+SPI = {
+	OR = {
+		is_core = SPI
+		owner = {
+			capital_scope = {
+				is_core = SPI
+			}
+		}
+	}
+}
+
+# Russia
+RUS = {
+	OR = {
+		is_core = RUS
+		owner = {
+			capital_scope = {
+				is_core = RUS
+			}
+		}
+	}
+}
+
+# Prussia
+PRU = {
+	OR = {
+		is_core = PRU
+		owner = {
+			capital_scope = {
+				is_core = PRU
+			}
+		}
+	}
+}
+
+# Ireland
+IRE = {
+	OR = {
+		is_core = IRE
+		owner = {
+			capital_scope = {
+				is_core = IRE
+			}
+		}
+	}
+}
+
+# Two Sicilies
+KNP = {
+	OR = {
+		is_core = KNP
+		owner = {
+			capital_scope = {
+				is_core = KNP
+			}
+		}
+	}
+	NOT = { exists = NAP }
+	NOT = { exists = SIC }
+}
+
+# Naples
+NAP = {
+	NOT = { exists = KNP }
+}
+
+# Sicily
+SIC = {
+	NOT = { exists = KNP }
+}
+
+# Romania
+ROU = {
+	OR = {
+		is_core = ROU
+		owner = {
+			capital_scope = {
+				is_core = ROU
+			}
+		}
+	}
+}
+
+# Wallachia
+WAL = {
+	NOT = { is_core = ROU }
+}
+
+# Moldavia
+MOL = {
+	NOT = { is_core = ROU }
+}
+
+# Ottomans
+TUR = {
+	always = no
+}
+
+OTT = {
+	religion = sunni
+}
+
+# Golden Horde
+GOL = {
+	religion_group = muslim
+	NOT = { exists = BLU }
+	NOT = { exists = WHI }
+	is_core = GOL
+}
+
+# Manchuria
+QNG = {
+	NOT = { exists = MCH }
+}
+MCH = {
+	NOT = { exists = QNG }
+}
+
+# Mughals
+MUG = {
+	religion_group = muslim
+		is_core = MUG
+}
+
+# The Hansa
+HSA = {
+	always = no
+}
+
+# Other unification nations
+ASE = {
+	always = no
+}
+
+AZT	 = {
+	is_core = AZT
+}
+
+BUL = {
+	is_core = BUL
+}
+
+CEL = {
+	always = no
+}
+
+GGK = {
+	always = no
+}
+
+GUP = {
+	always = no
+}
+
+IND = {
+	always = no
+}
+
+KAL = {
+	always = no
+}
+
+DAN = {
+	always = no
+}
+
+LOT = {
+	always = no
+}
+
+NSE = {
+	always = no
+}
+
+OCC = {
+	always = no
+}
+
+PLC = {
+	always = no
+}

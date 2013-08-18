@@ -2317,7 +2317,7 @@
 			name="Seagulls_english_channel"
 			position=
 			{
-				3298.000 0.100 1201.000 
+				3295.000 0.100 1204.000 
 			}
 			rotation=
 			{
@@ -2482,7 +2482,7 @@
 			name="Seagulls_english_channel"
 			position=
 			{
-				2905.000 0.100 1501.000 
+				3160.000 0.100 1802.000 
 			}
 			rotation=
 			{
@@ -2972,7 +2972,7 @@
 			name="cologne"
 			position=
 			{
-				2908.300 0.350 1537.500 
+				2923.000 0.350 1574.000 
 			}
 			rotation=
 			{

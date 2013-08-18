@@ -124,7 +124,7 @@
 			name="French_windmill"
 			position=
 			{
-				2843.000 0.100 1541.000 
+				2839.000 0.100 1544.000 
 			}
 			rotation=
 			{
@@ -575,7 +575,7 @@
 			name="Seagulls_Neatherlands"
 			position=
 			{
-				2838.000 11.000 1553.000 
+				2842.000 11.000 1579.000 
 			}
 			rotation=
 			{

@@ -1,0 +1,12 @@
+###############
+# Version 1.0 #
+###############
+[*]Reduced MP regen time from 10 years to 4.
+[*]Manpower regenerates at half the speed when at 20 we (approx max for most countries).
+[*]Increased minimum monthly manpower gain from 100 to 150 men.
+[*]Increased peacetime war exhaustion reduction from 0.1 to 0.2 per month.
+[*]Manpower is halved when land maintenance is at 0.
+[*]Being at peace reduced revolt risk by one.
+[*]Removed unnecessary maluses from we, such as reduced morale and defensiveness, since these are now offset by the slower manpower gain.
+[*]Manpower recovery speed from full army tradition reduced from 50% to 20% for balance.
+[*]Added triggered modifiers to prevent AI inflation from becoming out of control.

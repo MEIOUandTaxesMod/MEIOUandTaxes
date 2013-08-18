@@ -561,3 +561,59 @@ highland_charge = {
 	leader_shock = 1
 	#icon = 1
 }
+
+##################################################
+# AI Inflation Help
+##################################################
+
+bad_ai_1 = {	
+	potential = {
+			ai = yes
+		}
+	
+	trigger = {
+			inflation = 5
+		}
+
+	inflation_reduction = 0.1
+	interest = -1
+	merc_maintenance_modifier = -0.25
+}
+
+bad_ai_2 = {	
+	potential = {
+			ai = yes
+		}
+	
+	trigger = {
+			inflation = 10
+		}
+
+	inflation_reduction = 0.1
+	interest = -1
+	merc_maintenance_modifier = -0.5
+}
+
+bad_ai_3 = {	
+	potential = {
+			ai = yes
+		}
+	
+	trigger = {
+			inflation = 15
+		}
+
+	inflation_reduction = 0.2
+}
+
+bad_ai_4 = {	
+	potential = {
+			ai = yes
+		}
+	
+	trigger = {
+			inflation = 20
+		}
+
+	inflation_reduction = 0.6
+}

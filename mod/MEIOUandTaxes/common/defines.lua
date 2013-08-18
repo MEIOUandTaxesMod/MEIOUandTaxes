@@ -263,8 +263,8 @@ NMilitary = {
 	LIGHT_SHIP_MANPOWER_COST = 0.0,					-- 1 = 1000 men in cost.
 	GALLEY_SHIP_MANPOWER_COST = 0.0,				-- 1 = 1000 men in cost.
 	TRANSPORT_SHIP_MANPOWER_COST = 0.0,				-- 1 = 1000 men in cost.
-	MAX_MANPOWER = 10, 								-- years in mp pool
-	MIN_MONTHLY_MANPOWER = 0.1,						-- 100 men/month is minimum
+	MAX_MANPOWER = 4, 								-- years in mp pool
+	MIN_MONTHLY_MANPOWER = 0.15,						-- 100 men/month is minimum
 	INFANTRY_SPEED = 1.0, 							-- _MDEF_INFANTRY_SPEED = 10,
 	CAVALRY_SPEED = 1.0, 							-- _MDEF_CAVALRY_SPEED = 10,
 	ARTILLERY_SPEED = 1.0, 							-- _MDEF_ARTILLERY_SPEED = 10,

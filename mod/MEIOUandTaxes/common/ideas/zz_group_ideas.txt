@@ -1,0 +1,173 @@
+# These ideas are loaded after all country ideas, but before default idea.
+
+berber_ideas = {
+
+	start = {
+		enemy_core_creation = 2.0
+		global_ship_cost = -0.10
+	}
+	bonus = {
+		global_trade_power = 0.10
+	}
+	trigger = {
+		OR = {
+			tag = ALG
+			tag = MOR
+			tag = TUN
+			tag = FEZ
+			tag = TRP
+		}
+	}
+	free = yes
+	
+	ber_barbary_pirates = {
+		naval_forcelimit_modifier = 0.33
+	}
+	desert_warfare = {
+		land_attrition = -0.33
+	}
+	trans_saharan_trade = {
+		global_trade_income_modifier = 0.1
+	}
+	corsairs = {
+		navy_tradition = 1
+	}
+	tuareg_cavalry = {
+		cavalry_power = 0.10
+	}
+	dual_diplomacy = {
+		diplomatic_upkeep = 2
+	}
+	brothers_barbarossa = {
+		galley_power = 0.20
+	}
+	
+}	
+
+ 
+
+indian_muslim_ideas = {
+
+	start = {
+		religious_unity = 0.50
+		infantry_power = 0.05
+
+	}
+	bonus = {
+		global_missionary_strength = 0.05
+	}
+	trigger = {
+		religion_group = muslim
+		OR = {
+			culture_group = hindusthani
+			culture_group = dravidian
+			culture_group = eastern_aryan
+			culture_group = western_aryan
+		}
+	}
+	free = yes
+	
+	
+	tolerate_idol_worshippers_i = {
+		tolerance_heathen = 2
+	}
+	persian_court = {
+		global_revolt_risk = -1
+	}
+	comphrehensive_land_survey = {
+		global_tax_modifier = 0.10
+	}
+	counting_the_people = {
+		global_manpower_modifier = 0.10
+	}
+	equality_under_law = {
+		global_trade_power = 0.05
+	}
+	high_court_culture = {
+		prestige = 1
+	}
+	sultanate_bureaucracy = {
+		stability_cost_modifier = -0.1
+	}
+	
+}
+
+horde_ideas = {
+	start = {
+		no_cost_for_reinforcing = yes
+		war_exhaustion_cost = -0.15
+	}
+	bonus = {
+		stability_cost_modifier = -0.10
+	}
+	trigger = {
+		government = steppe_horde
+	}
+	free = yes
+	
+	life_of_steppe_warrior = {
+		land_attrition = -0.33
+	}
+	traditions_of_the_great_khan = {
+		cavalry_power = 0.20
+	}
+	horse_supplies = {
+		land_maintenance_modifier = -0.20
+	}
+	steppe_leaders = {
+		leader_shock	= 1
+	}
+	tradition_of_conquest = {
+		core_creation = -0.25
+	}
+	logistics_of_khan = {
+		manpower_recovery_speed = 0.25
+	}
+	glory_of_conquest = {
+		global_manpower_modifier = 0.25
+	}
+}
+
+
+
+theocracy_ideas = {
+	start = {
+		manpower_recovery_speed = 0.20
+		missionaries = 1
+	}
+	bonus = {
+		global_manpower_modifier = 0.20
+	}
+	trigger = {
+		government = theocracy
+		religion_group = christian
+	}
+	free = yes
+	
+	holy_order = {
+		discipline = 0.10
+	}
+	church_administration = {
+		stability_cost_modifier = -0.10
+		core_creation = -0.10
+	}
+	true_defender_of_the_faith = {
+		defensiveness = 0.25
+	}
+	no_witches = {
+		global_missionary_strength = 0.02
+	}
+	onward_christian_soldiers = {
+		global_garrison_growth = 0.1
+	}
+	turn_the_other_cheek = {
+		hostile_attrition = 1
+	}
+	render_unto_ceasar = {
+		global_tax_modifier = 0.10
+	}
+}
+
+
+
+

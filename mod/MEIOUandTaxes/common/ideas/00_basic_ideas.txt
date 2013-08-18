@@ -1,0 +1,516 @@
+# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+
+aristocracy_ideas = {
+	category = MIL
+
+	bonus = {
+		cavalry_power = 0.1
+	}
+
+	trigger = {
+		OR = {
+			government = monarchy
+			government = noble_republic
+			government = theocratic_government
+			government = papal_government
+		}
+	}
+	
+	noble_knights = {
+		cavalry_cost = -0.20
+	}
+	local_nobility = {
+		enemy_core_creation = 1.0
+	}
+	serfdom = {
+		global_manpower_modifier = 0.25
+	}
+	noble_officers = {
+		leader_shock	= 1
+	}
+	international_nobility = {
+		diplomats = 1
+	}
+	noble_resilience = {
+		war_exhaustion_cost = -0.20
+	}
+	military_traditions = {
+		mil_tech_cost_modifier  = -0.1
+	}
+}
+
+
+plutocracy_ideas = {
+	category = MIL
+
+	bonus = {
+		technology_cost = -0.1
+	}
+
+	trigger = {
+		NOT = { government = monarchy }
+		NOT = { government = noble_republic }
+		NOT = { government = theocratic_government }
+		NOT = { government = papal_government }
+	}
+	
+	tradition_of_payment = {
+		possible_mercenaries = 0.50
+	}
+	abolished_serfdom = {
+		land_morale = 0.25
+	}
+	bill_of_rights = {
+		global_revolt_risk = -1
+	}
+	free_merchants = {
+		merchants = 1
+	}
+	free_subjects = {
+		production_efficiency = 0.2
+	}
+	humanist_tolerance = {
+		tolerance_heathen = 2
+	}
+	emancipation = {
+		manpower_recovery_speed = 0.2
+	}
+}
+
+
+innovativeness_ideas = {
+	category = ADM
+
+	bonus = {
+		advisor_cost = -0.25
+	}
+	
+	patron_of_art  = { 
+		prestige_decay = -0.02
+	}
+	pragmatism = {
+		mercenary_cost = -0.25
+	}
+	scientific_revolution = {
+		technology_cost = -0.05
+	}
+	knowledge_transfer = {
+		army_tradition_decay = -0.02
+		navy_tradition_decay = -0.02
+	}
+	organised_recruiting = {
+		global_regiment_recruit_speed = -0.1
+	}
+	optimism = {
+		war_exhaustion = -0.05
+	}
+	formalized_officer_corps = {
+		free_leader_pool = 1
+	}
+}
+
+
+religious_ideas = {
+	category = ADM
+
+	bonus = {
+		relations_decay_of_me = 1.00
+	}
+
+	deus_vult = {
+		cb_on_religious_enemies = yes
+	}
+	missionary_schools = {
+		missionaries = 1
+	}
+	church_attendance_duty = {
+		stability_cost_modifier = -0.25
+	}
+	divine_supremacy = { 
+		global_missionary_strength = 0.03
+	}
+	devoutness = {
+		tolerance_own = 1
+	}
+	religious_tradition = {
+		prestige = 1
+	}
+	ecumenism = {
+		tolerance_heretic = 2
+	}
+}
+
+
+spy_ideas = {
+	category = ADM
+
+	bonus = {
+		rebel_support_efficiency = 0.50
+	}
+	
+	privateers = {
+		embargo_efficiency = 0.33
+	}
+	vetting = {
+		global_spy_defence = 0.25
+	}
+	rumourmongering = {
+		may_sabotage_reputation = yes
+	}
+	efficient_spies = {
+		spy_offence = 0.25
+		diplomats = 1
+	}
+	shady_recruitment = {
+		discovered_relations_impact = -0.33
+	}
+	destabilising_efforts = {
+		may_sow_discontent = yes
+	}
+	espionage  = {
+		may_infiltrate_administration = yes
+	}
+}
+
+
+diplomatic_ideas = {
+	category = DIP
+	bonus = {
+		reduced_stab_impacts = yes
+	}
+
+	foreign_embassies = {
+		diplomats = 1
+	}
+	claim_fabrication = {
+		fabricate_claims_time = -0.5
+	}	
+	cabinet = {
+		diplomatic_upkeep = 2
+	}
+	adaptability = {
+		core_creation = -0.25
+	}
+	revolution_and_counter = {
+		cb_on_government_enemies = yes
+	}
+	diplomatic_influence = {
+		diplomatic_reputation = 3
+	}
+	flexible_negotiation = {
+		unjustified_demands = -0.25
+	}
+}
+
+
+offensive_ideas = {
+	category = MIL
+
+	bonus = {
+		may_force_march = yes
+	}
+
+	bayonet_leaders = {
+		leader_shock = 1
+	}
+	national_conscripts = {
+		global_manpower_modifier = 0.25
+	}
+	superior_firepower = {
+		leader_fire = 1
+	}
+	glorious_arms = {
+		prestige_from_land = 1.0
+	}
+	improved_manuever = {
+		leader_land_manuever = 1
+	}
+	grand_army = {
+		land_forcelimit_modifier = 0.25
+	}
+	napoleonic_warfare = {
+		discipline = 0.10
+	}
+}
+
+
+defensive_ideas = {
+	category = MIL
+
+	bonus = {
+		hostile_attrition = 1
+	}
+
+	battlefield_commisions = {
+		army_tradition = 1
+	}
+	military_drill = {
+		land_morale = 0.5
+	}
+	engineer_corps = {
+		leader_siege = 1
+	}
+	regimental_system = {
+		land_maintenance_modifier = -0.10
+	}	
+	defensive_mentality = {
+		defensiveness = 0.33
+	}
+	supply_trains = {
+		reinforce_speed = 0.33
+	}
+	improved_foraging = {
+		land_attrition = -0.5
+	}
+}
+
+
+trade_ideas = {
+	category = DIP
+
+	bonus = {
+		merchants = 1
+	}	
+	
+	shrewd_commerce_practise = {
+ 		global_trade_power = 0.1
+  	}
+  	free_trade = {
+  		merchants = 1
+  	}
+	merchant_adventures = {
+		trade_range_modifier = 0.25
+	}
+	national_trade_policy = {
+		trade_efficiency = 0.1
+	}
+	overseas_merchants = {
+		merchants = 1
+	}
+	trade_manipulation = {
+		trade_steering = 0.25
+	}
+	fast_negotiations = {
+		global_trade_income_modifier = 0.1
+	}
+}
+
+
+economic_ideas = {
+	category = ADM
+
+	bonus = {
+		may_reduce_inflation = yes
+	}	
+	
+	bureaucracy = {
+		global_tax_modifier = 0.10
+	}
+	organised_construction = {
+		build_cost = -0.20
+	}
+	national_bank = {
+		inflation_reduction = 0.1
+	}
+	debt_and_loans = {
+		interest = -1
+	}
+	centralization = {
+		advisor_pool = 1
+	}
+	nationalistic_enthusiasm = {
+		land_maintenance_modifier = -0.10
+	}
+	smithian_economics = {
+		production_efficiency = 0.2
+ 	}
+}
+
+
+exploration_ideas = {
+	category = DIP
+
+	bonus = {
+		cb_on_primitives = yes
+	}
+	
+	colonial_ventures = {
+		colonists = 1
+	}
+	quest_for_the_new_world	= {
+		may_explore = yes
+	}
+	overseas_exploration = {
+		range = 0.5
+	}	
+	land_of_opportunity = {
+		global_colonial_growth = 33
+	}
+	vice_roys  = {
+ 		global_tariffs = 0.20
+ 	}
+	free_colonies = {
+		colonists = 1
+	}
+	global_empire = {
+		overseas_income = 0.1
+	}
+}
+
+
+naval_ideas = {
+	category = DIP
+
+	bonus = {
+		sea_repair = yes
+	}
+
+	superior_seamanship = {
+		naval_morale = 1.0
+	}
+	naval_glory = {
+		prestige_from_naval = 1.0
+	}
+	grand_navy = {
+		naval_forcelimit_modifier = 1.0
+	}	
+	sea_hawks = {
+		navy_tradition = 1
+	}
+	excellent_shipwrights = {
+		leader_naval_manuever = 2
+	}
+	naval_fighting_instruction = {
+		blockade_efficiency = 0.5
+	}
+	press_gangs = {
+		global_ship_cost = -0.20
+	}
+}
+
+
+quality_ideas = {
+	category = MIL
+
+	bonus = {
+		discipline = 0.15
+	}
+	
+	private_to_marshal = {
+		infantry_power = 0.1
+	}
+	quality_education = {
+		recover_army_morale_speed = 0.05
+	}
+	finest_of_horses = {
+		cavalry_power = 0.1
+	}
+	oak_forests_for_ships = {
+		heavy_ship_power = 0.1
+	}
+	naval_drill = {
+		recover_navy_morale_speed = 0.05
+	}
+	merchant_marine = {
+		light_ship_power = 0.1
+	}
+	massed_battery = {
+		artillery_power = 0.1
+	}
+}
+
+
+quantity_ideas = {
+	category = MIL
+
+	bonus = {
+		land_forcelimit_modifier  = 0.33
+	}
+	
+	benefits_for_horseowners = {
+		cavalry_cost = -0.1
+	}
+	the_young_can_serve = {
+		manpower_recovery_speed = 0.20
+	}
+	enforced_service = {
+		infantry_cost = -0.1
+	}
+	the_old_and_infirm = {
+		land_maintenance_modifier = -0.10
+	}
+	ships_penny = {
+		global_ship_cost = -0.1
+	}
+	standardized_artillery = {
+		artillery_cost = -0.1
+	}
+	mass_army = {
+		global_manpower_modifier = 0.50
+	}
+}
+
+
+expansion_ideas = {
+	category = DIP
+	
+	bonus = {
+ 		cb_on_overseas = yes
+	}
+
+	additional_colonists = {
+		colonists = 1
+	}
+	additional_merchants = {
+		merchants = 1
+	}
+	faster_colonists = {
+		colonist_time = -0.33
+	}
+	additional_diplomats = {
+		diplomatic_upkeep = 2
+	}
+	improved_shipyards  = {
+		global_ship_recruit_speed = -0.1
+	}
+	experienced_diplomats  = {
+		diplomatic_reputation = 3
+	}	
+	competetive_merchants  = {
+		global_trade_power = 0.2
+	}
+}
+
+
+administrative_ideas = {
+	category = ADM
+	
+	bonus = {
+		production_efficiency = 0.2
+	}
+	
+	organised_mercenary_payment = {
+		mercenary_cost = -0.25
+	}
+	benefits_for_mercenaries = {
+		merc_maintenance_modifier = -0.33
+	}
+	organised_mercenary_recruitment = {
+		possible_mercenaries = 0.50
+	}
+	bookkeeping = {
+		interest = -1
+	}
+	administrative_efficiency = {
+		advisor_pool = 1
+	}
+	resilient_state = {
+		global_spy_defence = 0.25
+	}
+	war_cabinet = {
+		war_exhaustion_cost = -0.33
+	}
+}
